@@ -14,7 +14,7 @@
         <div class="map">
           <div class="map-container">
             <div id="map" style="width: 100vw; height: 100vh"></div>
-            <div id="modal" style="width: 600px">  <!-- 기존 600 px 바꿀까 말까... 좀 더 키워도 될듯?-->
+            <div id="modal" style="width: 600px"> 
               <div class="modal-container">
                 <div id="modal-content">
                   <span class="close" onclick="closeModal()">&times;</span>
@@ -43,15 +43,15 @@
                           <option value="5">5kWp</option>
                         </select>
                       </form>
-                      <button onclick="calculateCapacity()">조건변경</button>
+                      <button onclick="calculateCapacity()">발전량 <br /> 결과 확인</button>
                     </div>
                   </div>
                 </div>
                 <div class="contact-form">
                   <div class="contact-text">
                     <p>
-                      초기 설치비용 없이 전기료를 절감하는 방법<br />
-                      이메일로 부담없이 물어보세요.
+                      최적화 결과 확인 바로가기<br />
+                      
                     </p>
                     <button onclick="goToContactPageWithSolarData()">1:1 무료 상담문의</button>
                   </div>
@@ -98,7 +98,7 @@ function goToContactPageWithSolarData() {
       crossorigin="anonymous"
     >
 </script>
-    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=767f5668a885a76b8b29f9ba76a03369&libraries=services">
+    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=&libraries=services"> // <!-- 여기에 kakao map api JS key 발급 받아서 넣으시면 됩니다.  appkey= 이 뒤에 발급받은 키를 넣어주세요.
 
 </script>
     

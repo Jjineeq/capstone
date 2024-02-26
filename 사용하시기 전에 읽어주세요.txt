@@ -1,0 +1,16 @@
+안녕하세요
+해당 Flask으로 구성된 프레임워크는 AWS 또는 localhost 환경에서 작동이 가능합니다.
+
+2개의 세팅을 해야 정상적으로 작동합니다.
+
+1. app.py의 google or naver mail 연결
+ 
+ 최적화 결과를 저장하기 위해 mail을 사용해서 사용자가 입력한 정보를 받아오게 되어있습니다.
+ google 기준으로 앱 비밀번호 설정 후 id와 pw 연결하시면 됩니다.
+
+2. map.html의 js key 설정
+ 
+ map 페이지에서 검색시 kakao map api를 사용해서 검색 후 지도에 표시합니다.
+ map.html의 101번째 줄에 발급받으신 appkey= 뒤에 key를 넣으면 정상적으로 작동합니다.
+
+감사합니다.
