@@ -9,11 +9,11 @@ import smtplib, ssl, imaplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-# id = pd.read_excel('./id_password.xlsx', header=None) // 사용할 이메일을 저장해야 합니다. SMTP를 사용하기 위해 필요합니다.
+id = pd.read_excel('./id_password.xlsx', header=None) # // 사용할 이메일을 저장해야 합니다. SMTP를 사용하기 위해 필요합니다.
 # google 계정 -> 보안 -> 2단계 인증 사용 -> 앱 비밀번호 생성 -> 이메일과 비밀번호를 저장해야 합니다.
 
-# email_user = id[0][0]
-# email_password = id[1][0]
+email_user = id[0][0]
+email_password = id[1][0]
 
 
 app = Flask(__name__)

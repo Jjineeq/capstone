@@ -1,9 +1,9 @@
 .main-scroll {
   border-radius: 0px 0px 45px 0px; /* 둥글게 할 반지름 값을 조정해보세요 */
   display: block; /* 블록 요소로 설정 */
-  height: 100px;
   background-color: rgb(22, 36, 75);
   position: relative;
+  overflow: scroll;
   top: -10px; /* 또는 다른 음수값을 사용하여 조정 */
   z-index: 1; /* tech-wrapper가 배경 이미지 위로 올라가도록 z-index 설정 */
 }
